@@ -1,6 +1,4 @@
 // Import the data to customize and insert them into page
-function play() {
-var audio = new Audio('https://storage.caliph71.xyz/audio/Dandelions.mp3');audio.play();}
 const fetchData = () => {
   fetch("customize.json")
     .then(data => data.json())
